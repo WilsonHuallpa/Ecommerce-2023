@@ -62,7 +62,7 @@ export const Navbar = () => {
              
             <div  style={{ flexGrow: 1}}/>
             <Typography variant="h6" color="textPrimary" component="p">
-                { displayName }
+                Hola { displayName }
             </Typography>
                 <Button onClick={onLogout} variant='outlined'  color="info" style={{marginLeft: theme.spacing(2)}}>
                         <strong>Sign In</strong>
